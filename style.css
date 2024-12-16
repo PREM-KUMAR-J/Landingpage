@@ -1,0 +1,98 @@
+*{
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.navdiv{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header{
+    font-size: 35px;
+    font-weight:900;
+    color:orangered;
+}
+li{
+    margin:10px 10px;
+    padding:5px;
+    list-style: none;
+    display:inline-block;
+}
+.navbar ul li.active a{
+    color:orangered;
+}
+li a:hover{
+    color:orangered;
+}
+.navbar{
+    background-color:rgba(0, 0, 0,0.5)
+}
+.content h3{
+    color:orangered;
+}
+.image{
+    background-image:url("Assets/tech.jpg");
+    height:750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    color:white;
+    margin:80px;
+    width:40%;
+}
+.btn{
+    border: 2px solid orangered;
+    text-align:center;
+    padding:10px; 
+}
+i.fa-solid fa-square-caret-right{
+    border: 2px solid orangered;
+    text-align:center;
+    padding:10px;
+}
+
+.img{
+    border:2px solid orangered;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    float:right;
+    width:50%;
+
+  }
+  .all{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+  .lft{
+    width:50%;
+  }
+  .rgt{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
